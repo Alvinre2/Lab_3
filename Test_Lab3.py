@@ -43,7 +43,7 @@ def test_bubble_sort_non_integer():
 
     result = Lab3.bubble_sort(input_arr, Lab3.SORT_ASCENDING)
 
-    assert result == 2
+    assert (result == 2)
 
 
 def test_bubble_sort_empty():
@@ -51,4 +51,4 @@ def test_bubble_sort_empty():
 
     result = Lab3.bubble_sort(input_arr, Lab3.SORT_ASCENDING)
 
-    assert result == 0  # REQ-04: Return 0 for an empty list
+    assert (result == 0)  # REQ-04: Return 0 for an empty list
